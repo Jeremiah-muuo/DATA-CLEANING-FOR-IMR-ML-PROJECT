@@ -50,4 +50,26 @@ install.packages(c(
   "tidyverse", "haven", "dplyr", "tidyr",
   "labelled", "naniar", "visdat", "skimr"
 ))
+🚀 Usage
+Clone the repository:
+
+bash
+git clone https://github.com/Jeremiah-muuo/DATA-CLEANING-FOR-IMR-ML-PROJECT.git
+Open Dofile_var_factor.R in RStudio.
+
+Set the correct file path to your KDHS 2022 dataset.
+Run the script line by line or source it:
+
+r
+source("Dofile_var_factor.R")
+📊 Output
+Cleaned dataset ready for ML modelling
+
+Summary tables of missing values
+
+Diagnostic plots (e.g., missingness patterns)
+Saved .rds or .csv file of the processed data
+
+🤝 Contributing
+Suggestions and improvements are welcome. Please open an issue or submit a pull request.
 
